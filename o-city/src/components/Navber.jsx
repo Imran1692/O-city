@@ -3,7 +3,7 @@ import { TiShoppingCart } from "react-icons/ti";
 import { IoSearch } from "react-icons/io5";
 function Navber(){
     return (
-        <header className="mx-10 my-3.5">
+        <header className=" mx-10 my-3.5 fixed top-0 left-0 right-0">
             <nav className="px-2 py-2 mx-6  flex justify-between items-center ">
                 {/* Logo */}
                 <a href="#" className="text-3xl font-bold">

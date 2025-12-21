@@ -1,4 +1,5 @@
 import Navber from './components/Navber'
+import Hero from './components/Hero'
 import { useState } from 'react'
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
   return (
     <>
      <Navber/>
+     <Hero />
+     
     </>
   )
 }
