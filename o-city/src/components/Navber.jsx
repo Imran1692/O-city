@@ -10,7 +10,7 @@ function Navber() {
         setShowMenu(!showMenu);
     }
     return (
-        <header className=" mx-10 my-3.5 fixed top-0 left-0 right-0 ">
+        <header className="bg-white mx-10 fixed top-0 left-0 right-0 ">
             <nav className="md:h-[12vh] h-[10vh] px-2 py-2 mx-6  flex justify-between items-center ">
                 {/* Logo */}
                 <a href="#" className="text-3xl font-bold">

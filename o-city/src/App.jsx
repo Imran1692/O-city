@@ -1,6 +1,7 @@
 import Navber from './components/Navber'
 import Hero from './components/Hero'
 import { useState } from 'react'
+import Category from './components/category'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +10,7 @@ function App() {
     <>
      <Navber/>
      <Hero />
-     
+     <Category />
     </>
   )
 }
