@@ -1,4 +1,7 @@
  @import "tailwindcss";
+ /* *{
+  border: .1rem solid red;
+ } */
  /*
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
