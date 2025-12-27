@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import { useState } from 'react'
 import Category from './components/category'
 import Values from './components/Values'
+import Products from './components/Products'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
      <Hero />
      <Category />
      <Values />
+     <Products />
     </>
   )
 }
