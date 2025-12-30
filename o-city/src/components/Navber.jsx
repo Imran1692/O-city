@@ -54,7 +54,7 @@ function Navber() {
                         <TiShoppingCart />
                     </a>
                     {/* menubar */}
-                    <a href="#" className="text-2xl" onClick={menubar}>
+                    <a href="#" className="text-2xl md:hidden" onClick={menubar}>
                        { showMenu ? <RiMenu4Fill />:<IoMenu />}
                     </a>
                 </div>

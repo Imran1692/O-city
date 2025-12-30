@@ -4,6 +4,8 @@ import { useState } from 'react'
 import Category from './components/category'
 import Values from './components/Values'
 import Products from './components/Products'
+import Process from './components/Process'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +17,8 @@ function App() {
      <Category />
      <Values />
      <Products />
+     <Process />
+     <Footer />
     </>
   )
 }
